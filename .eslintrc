@@ -8,6 +8,7 @@
     "node": true
   },
   "rules": {
+    "import/prefer-default-export": "off",
     "indent": [2, 2],
     "import/no-extraneous-dependencies": [2, {
       "devDependencies": true
