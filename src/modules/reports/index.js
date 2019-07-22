@@ -1,9 +1,11 @@
 import path from 'path';
 import config from 'config';
 
-import { 
+import {
   log, delay, fileExists, getReportFilesDir,
 } from '../../utils';
+
+import { postChatMessage, uploadFile } from '../slack';
 
 // Reports
 import getUserActivity from './getUserActivity';
